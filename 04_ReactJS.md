@@ -51,10 +51,10 @@ Use Cases
 - useEffect is used to performs side effects after the component renders.
 
 Examples of side effects:
-* API calls
-* Timers
-* Event Listners
-* Updating Document Title
+- API calls
+- Timers
+- Event Listners
+- Updating Document Title
 
 Example
 
@@ -256,8 +256,8 @@ useEffect(() => {}, [])
 Updating
 - Component re-renders because
 
-* State changes
-* Props change
+- State changes
+- Props change
 
 Example
 
