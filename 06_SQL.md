@@ -222,6 +222,8 @@ FROM Employee
 LIMIT 10;
 ```
 
+11. Frequently Asked SQL Interview Questions
+
 | DELETE                | TRUNCATE         | DROP                     |
 | --------------------- | ---------------- | ------------------------ |
 | Removes selected rows | Removes all rows | Deletes the entire table |
