@@ -192,7 +192,7 @@ Benefits
 
 11. What is Reconciliation?
 
-- Reconcilation is the process React uses to compare old Virtual DOM with the new Virtual DOm.
+- Reconcilation is the process React uses to compare old Virtual DOM with the new Virtual DOM.
 - React identifies what changed and updates only those elements in the Real DOM.
 - This process is called Diffing.
 

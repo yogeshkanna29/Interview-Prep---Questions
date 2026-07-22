@@ -26,7 +26,7 @@ Key Features
 
 2. What are Indexes?
 
-- Indexes improve the speed of quesries by allowing MongoDB to find data quickly without scanning every document.
+- Indexes improve the speed of queries by allowing MongoDB to find data quickly without scanning every document.
 - Without an index, MongoDB performs a collection scan, which is slower.
 
 ```js
