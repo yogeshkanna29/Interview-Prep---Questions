@@ -165,6 +165,12 @@ exec()
 spawn()
 fork()
 
+fork(): Creates a exact duplicate (child) of the current process. It copies the memory space, file descriptors, and environment variables. The child gets a new Process ID (PID).
+---
+exec(): Replaces the current process's memory space and program with a brand new program. It does not create a new process; instead, the old program stops and the new program takes over its PID.
+---
+spawn(): Combines creating a process and running a program in one single step (common in modern OS design or environments like Node.js) without needing a separate duplicate phase.
+---
 Example
 Running a Python script from Node.js.
 
