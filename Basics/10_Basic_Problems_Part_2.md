@@ -1,7 +1,7 @@
 # 1. Find the largest number
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function findLargest(arr) {
@@ -27,7 +27,7 @@ console.log(findLargest([10, 5, 20, 8])); // 20
 # 2. Find the smallest number
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
 
 ```js
 function findSmallest(arr) {
@@ -52,7 +52,7 @@ console.log(findSmallest([10, 5, 20, 8])); // 5
 # 3. Find sum of array
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
 
 ```js
 function arraySum(arr) {
@@ -75,7 +75,7 @@ console.log(arraySum([1, 2, 3, 4])); // 10
 # 4. Find average
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function average(arr) {
@@ -99,7 +99,7 @@ console.log(average([10, 20, 30])); // 20
 # 5. Count even numbers
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
 
 ```js
 function countEven(arr) {
@@ -124,7 +124,7 @@ console.log(countEven([1, 2, 4, 7, 8])); // 3
 # 6. Reverse an array
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function reverseArray(arr) {
@@ -147,7 +147,7 @@ console.log(reverseArray([1, 2, 3, 4]));
 # 7. Reverse a string
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function reverseString(str) {
@@ -170,7 +170,7 @@ console.log(reverseString("hello")); // "olleh"
 # 8. Check palindrome
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function isPalindrome(str) {
@@ -199,7 +199,7 @@ console.log(isPalindrome("hello")); // false
 # 9. Find maximum and minimum
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function findMinMax(arr) {
@@ -246,7 +246,7 @@ console.log(linearSearch([10, 20, 30, 40], 30)); // 2
 # 11. Count frequency of elements
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function frequency(arr) {
@@ -274,7 +274,7 @@ console.log(frequency([1, 2, 2, 3, 3, 3]));
 # 12. Find duplicate elements
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function findDuplicates(arr) {
@@ -323,7 +323,7 @@ console.log(findDuplicates([1, 1, 2, 2, 3, 4, 5, 6, 5, 6]));
 # 13. Remove duplicates
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function removeDuplicates(arr) {
@@ -408,7 +408,7 @@ console.log(isSorted([1, 3, 2, 4])); // false
 # 16. Find missing number
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function findMissing(arr) {
@@ -435,7 +435,7 @@ console.log(findMissing([1, 2, 3, 5]));
 # 17. Find multiple missing numbers
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function findMissing(arr) {
@@ -464,7 +464,7 @@ console.log(findMissing([1, 3, 4, 6, 7, 8]));
 # 18. Swap two numbers
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function swap(a, b) {
@@ -483,7 +483,7 @@ console.log(swap(10, 20));
 # 19. Factorial
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function factorial(n) {
@@ -514,7 +514,7 @@ function factorial(n){
 # 20. Fibonacci
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function fibonacci(n) {
@@ -573,7 +573,7 @@ console.log(isPrime(10)); // false
 # 22. Reverse number
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function reverseNumber(n) {
@@ -600,7 +600,7 @@ console.log(reverseNumber(1234));
 # 23. Count digits
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function countDigits(n) {
@@ -624,7 +624,7 @@ console.log(countDigits(12345));
 # 24. Sum of digits
 
 <details>
-    <summary><strong></strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function sumDigits(n) {
@@ -648,7 +648,7 @@ console.log(sumDigits(1234));
 # 25. Count vowels
 
 <details>
-    <summary><strong>Tap to view</strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function countVowels(str) {
