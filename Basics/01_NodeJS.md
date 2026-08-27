@@ -315,6 +315,53 @@ PUT    /users/1
 DELETE /users/1
 ```
 
+```js
+JavaScript Code
+      ↓
+   Call Stack
+      ↓
+   Node.js / libuv
+      ↓
+┌─────────────────────────────┐
+│       Event Loop             │
+│                             │
+│ timers                      │
+│ pending callbacks           │
+│ poll                        │
+│ check                       │
+│ close callbacks             │
+└─────────────────────────────┘
+      ↓
+ Microtasks / nextTick
+ ```
+
+ ---
+
+ ## The "tricky terms" cheat sheet
+
+ | Term                  | One-line answer                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| **Call Stack**        | Keeps track of currently executing JavaScript functions.                            |
+| **Event Loop**        | Coordinates execution of asynchronous callbacks when the call stack is available.   |
+| **libuv**             | Provides Node's event loop and asynchronous I/O infrastructure.                     |
+| **Timers**            | Executes eligible `setTimeout`/`setInterval` callbacks.                             |
+| **Poll**              | Retrieves I/O events and executes I/O callbacks.                                    |
+| **Check**             | Executes `setImmediate()` callbacks.                                                |
+| **Pending callbacks** | Handles certain deferred system/I/O callbacks.                                      |
+| **Close callbacks**   | Handles callbacks for closed resources such as sockets.                             |
+| **nextTick**          | Runs after current operation and before the event loop continues.                   |
+| **Microtask**         | Small asynchronous callbacks such as Promise handlers processed with high priority. |
+| **Non-blocking I/O**  | Starts I/O without making the JS thread wait synchronously.                         |
+| **Thread Pool**       | Worker threads used by libuv for certain expensive async operations.                |
+| **Worker Thread**     | Separate thread for CPU-intensive JavaScript work.                                  |
+| **EventEmitter**      | Node mechanism for emitting and listening to events.                                |
+| **Stream**            | Processes data incrementally instead of loading everything into memory.             |
+| **Backpressure**      | Controls a fast producer when the consumer is slower.                               |
+| **Cluster**           | Runs multiple Node processes to utilize multiple CPU cores.                         |
+| **Blocking**          | Prevents the main JS thread from continuing.                                        |
+| **Callback**          | Function executed after an operation completes or an event occurs.                  |
+| **Callback Queue**    | Queue where certain asynchronous callbacks wait for execution.                      |
+
 
 
 

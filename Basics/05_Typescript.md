@@ -16,7 +16,8 @@ Key Features
 
 2. Interface vs Type
 
-- An interface defines the structure of an object.
+- An interface defines the structure of an object. (or)
+- Both can define object shapes. Interfaces are commonly used for object contracts and can be extended or declaration-merged, while type aliases are more flexible for unions, intersections and primitive aliases.
 
 Example 
 
@@ -101,7 +102,8 @@ if (typeof value === "string") {
 
 4. What are Generics?
 
-Generics allows us to write resuable functions, classes, or interfaces that work with different data types while maintaining type safety.
+- Generics allow us to write reusable code while preserving type safety.
+- Generics allows us to write resuable functions, classes, or interfaces that work with different data types while maintaining type safety.
 
 Example
 
@@ -127,6 +129,24 @@ Usage
 print<string>("Hello");
 
 print<number>(10);
+```
+
+Better Example
+
+```js
+interface ApiResponse<T> {
+  success: boolean;
+  data: T;
+  message?: string;
+}
+
+const response: ApiResponse<User> = {
+  success: true,
+  data: {
+    id: 1,
+    name: "Yogesh"
+  }
+};
 ```
 
 Benefits
