@@ -224,7 +224,7 @@ console.log(findMinMax([5, 2, 9, 1, 7]));
 # 10. Search an element — Linear Search
 
 <details>
-    <summary><strong></strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function linearSearch(arr, target) {
@@ -356,7 +356,7 @@ function removeDuplicates(arr) {
 # 14. Find second largest number
 
 <details>
-    <summary><strong></strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function secondLargest(arr) {
@@ -385,7 +385,7 @@ console.log(secondLargest([10, 5, 20, 8, 15]));
 # 15. Check if array is sorted
 
 <details>
-    <summary><strong></strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function isSorted(arr) {
@@ -546,7 +546,7 @@ fibonacci(6);
 # 21. Check prime number
 
 <details>
-    <summary><strong></strong></summary>
+    <summary><strong>Click to view</strong></summary>
     
 ```js
 function isPrime(n) {
